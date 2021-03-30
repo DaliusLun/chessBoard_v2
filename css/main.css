@@ -15,16 +15,11 @@
 
 .block__board {
   width: 100%;
-  height: 90%;
+  height: 100%;
   display: flex;
 }
 
-.block__center {
-  width: 100%;
-  height: 100%;
-}
-
-.center__table {
+.board__table {
   width: 100%;
   height: 100%;
   border: 1px solid black;
