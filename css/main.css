@@ -1,0 +1,59 @@
+.wrapper {
+  background-color: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.block__board {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+
+.block__center {
+  width: 100%;
+  height: 100%;
+}
+
+.center__table {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.table__line {
+  height: calc(100% / 10);
+}
+
+.line__cell {
+  height: 100%;
+  width: calc(100% / 10);
+  float: left;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.align {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+  border: 1px solid black;
+}
